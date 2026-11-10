@@ -12,7 +12,7 @@ test.describe('Mocking an API call', () => {
     await page.goto('https://demo.playwright.dev/api-mocking');
   
     // Assert that the Strawberry fruit is visible
-    await expect(page.getByText('Strawberry')).toBeVisible();
+    await expect(page.getByText('Strawberries')).toBeVisible();
   });
   
 });
