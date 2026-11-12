@@ -34,7 +34,7 @@ test.describe('Intercepting the request and modifying it', () => {
     await page.goto('https://demo.playwright.dev/api-mocking');
 
     // Assert that the new fruit is visible
-    await expect(page.getByText('Playwright', { exact: true })).toBeVisible();
+    await expect(page.getByText('Playwrite', { exact: true })).toBeVisible();
   });
   
 });
